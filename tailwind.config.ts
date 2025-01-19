@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'novitrail-blue': '#054F8AFF',
+        'novitrail-orange': '#E56737FF',
       },
     },
   },
