@@ -48,13 +48,13 @@ const ContactInfo = () => {
             <div className="space-y-1">
               <p className="text-gray-300">
                 <span className="font-semibold">General Enquiries:</span><br/>
-                <a href="mailto:novitrailpharma1@gmail.com"
-                   className="hover:text-novitrail-orange">novitrailpharma1@gmail.com</a>
+                <a href="mailto:info@novitrail.com"
+                   className="hover:text-novitrail-orange">info@novitrail.com</a>
               </p>
               <p className="text-gray-300">
                 <span className="font-semibold">Sales Enquiries:</span><br/>
                 <a href="mailto:novitrailpharma@gmail.com"
-                   className="hover:text-novitrail-orange">novitrailpharma@gmail.com</a>
+                   className="hover:text-novitrail-orange">novitrailpharma1@gmail.com</a>
               </p>
             </div>
           </div>
