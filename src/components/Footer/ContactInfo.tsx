@@ -64,12 +64,12 @@ const ContactInfo = () => {
         <div className="flex items-center space-x-3">
           <Globe className="text-novitrail-orange flex-shrink-0" size={20}/>
           <a
-            href="http://www.novitrailpharmaceuticals.com"
+            href="https://www.novitrail.com/"
             className="text-gray-300 hover:text-novitrail-orange"
             target="_blank"
             rel="noopener noreferrer"
           >
-            www.novitrailpharmaceuticals.com
+            novitrail.com
           </a>
         </div>
 
