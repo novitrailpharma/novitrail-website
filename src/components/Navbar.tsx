@@ -1,20 +1,20 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, {useState, useRef} from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Plus, Minus } from "lucide-react";
+import {Menu, X, Plus, Minus} from "lucide-react";
 
 const navItems = [
-  { label: "Home", href: "/" },
-  { label: "About Us", href: "/about-novitrail" },
+  {label: "Home", href: "/"},
+  {label: "About Us", href: "/about-novitrail"},
   {
     label: "Portfolio",
     href: "/portfolio",
     submenu: [
-      { label: "Novitrail Products", href: "/portfolio/novitrail-products" },
-      { label: "Pharmaceutical", href: "/portfolio/pharmaceuticals" },
-      { label: "Surgical", href: "/portfolio/surgicals" },
+      {label: "Novitrail Products", href: "/portfolio/novitrail-products"},
+      {label: "Pharmaceutical", href: "/portfolio/pharmaceuticals"},
+      {label: "Surgical", href: "/portfolio/surgicals"},
     ],
   },
 ];
@@ -110,32 +110,37 @@ const Navbar: React.FC = () => {
             <ul className="flex flex-col space-y-2">
               {navItems.map((item) => (
                 <li key={item.label} className="relative">
-                  <button
-                    onClick={() =>
-                      item.submenu ? toggleSubmenu(item.label) : setIsMenuOpen(false)
-                    }
-                    className="flex flex-row px-4 py-2 w-full text-xl text-left text-gray-700 hover:bg-novitrail-orange hover:text-white justify-between"
-                  >
-                    <span>{item.label}</span>
-                    {item.submenu && (
+                  {item.submenu ? (
+                    <button
+                      onClick={() => toggleSubmenu(item.label)}
+                      className="flex flex-row px-4 py-2 w-full text-xl text-left text-gray-700 hover:bg-novitrail-orange hover:text-white justify-between"
+                    >
+                      <span>{item.label}</span>
                       <span>
-                        {activeSubmenu === item.label ? (
-                          <Minus size={18}/>
-                        ) : (
-                          <Plus size={18}/>
-                        )}
-                      </span>
-                    )}
-                  </button>
+                {activeSubmenu === item.label ? <Minus size={18}/> : <Plus size={18}/>}
+              </span>
+                    </button>
+                  ) : (
+                    <Link href={item.href}>
+              <span
+                onClick={() => setIsMenuOpen(false)}
+                className="block px-4 py-2 w-full text-xl text-left text-gray-700 hover:bg-novitrail-orange hover:text-white"
+              >
+                {item.label}
+              </span>
+                    </Link>
+                  )}
                   {item.submenu && activeSubmenu === item.label && (
                     <ul className="absolute flex flex-col bg-gray-100 right-0 left-0 animate-slide-left">
                       {item.submenu.map((submenu) => (
                         <li key={submenu.label}>
                           <Link href={submenu.href}>
-                            <span
-                              className="block px-12 py-2 text-gray-700 hover:bg-novitrail-blue hover:text-white text-xl">
-                              {submenu.label}
-                            </span>
+                    <span
+                      onClick={() => setIsMenuOpen(false)}
+                      className="block px-12 py-2 text-gray-700 hover:bg-novitrail-blue hover:text-white text-xl"
+                    >
+                      {submenu.label}
+                    </span>
                           </Link>
                         </li>
                       ))}
