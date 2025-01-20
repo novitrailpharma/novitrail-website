@@ -3,11 +3,13 @@ import Link from 'next/link';
 
 const QuickLinks: React.FC = () => {
   const links = [
-    { text: 'About Us', href: '/about' },
-    { text: 'Novitrail Products', href: '/products/novitrail' },
-    { text: 'Other Products', href: '/products/others' },
-    { text: 'Careers', href: '/careers' },
-    { text: 'News & Updates', href: '/news' },
+    {text: "Home", href: "/"},
+    {text: "About Us", href: "/about-novitrail"},
+    {text: "Portfolio", href: "/portfolio"},
+    {text: "Novitrail Products", href: "/portfolio/novitrail-products"},
+    {text: "Pharmaceutical Products Portfolio", href: "/portfolio/pharmaceuticals"},
+    {text: "Surgical Products Portfolio", href: "/portfolio/surgicals"},
+    {text: "Contact Us Form", href: "/contact-us"},
   ];
 
   return (
