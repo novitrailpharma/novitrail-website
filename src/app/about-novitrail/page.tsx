@@ -1,11 +1,25 @@
-import React from 'react';
+"use client";
+
+import React, { useEffect, useState } from 'react';
 import WhoWeAre from "@/components/WhoWeAre";
-import {missionData, valuesData, whoWeAreData} from "@/assets/constants/cardsData";
+import { missionData, valuesData, whoWeAreData } from "@/assets/constants/cardsData";
 import PageHeading from "@/components/PageHeading";
-import pageHeadingBackground from "@/assets/headingback.jpg"
+import pageHeadingBackground from "@/assets/headingback.jpg";
 import FeaturesSection from "@/components/FeaturesSection";
+import Loading from "@/components/Loading";
+
 
 const Page = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return <Loading/>
+  }
+
   return (
     <>
       <PageHeading
@@ -18,8 +32,8 @@ const Page = () => {
         photo={pageHeadingBackground.src}
       />
       <WhoWeAre data={whoWeAreData} />
-      <FeaturesSection sectionData={missionData} bush={true}/>
-      <FeaturesSection sectionData={valuesData} bush={false}/>
+      <FeaturesSection sectionData={missionData} bush={true} />
+      <FeaturesSection sectionData={valuesData} bush={false} />
     </>
   );
 };

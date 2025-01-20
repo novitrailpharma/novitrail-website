@@ -7,8 +7,8 @@ import {
 	Plane,
 	Truck,
 	Pill,
-	Syringe, Hospital, Globe2,
-	Target, Briefcase, Heart, BarChart4, Shield, Users
+	Syringe, Globe2,
+	Target, Heart, BarChart4, Users
 } from "lucide-react";
 import React from "react";
 import Image from "next/image";

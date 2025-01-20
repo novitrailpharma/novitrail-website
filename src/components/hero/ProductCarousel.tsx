@@ -1,5 +1,7 @@
 'use client';
 
+import Image from "next/image";
+
 const products = Array.from({length: 5}, (_, i) => `/novi_products/${i + 1}.png`);
 
 
@@ -57,10 +59,12 @@ const ProductCarousel = () => {
               index === currentIndex ? 'opacity-100' : 'opacity-0 pointer-events-none'
             }`}
           >
-            <img
+            <Image
               src={product}
               alt={"product.name"}
               className="w-full h-full object-contain"
+              width={800}
+              height={800}
             />
           </div>
         ))}
