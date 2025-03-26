@@ -5,21 +5,16 @@ import Link from "next/link";
 import Image from "next/image";
 import {Menu, X, Plus, Minus} from "lucide-react";
 
-// const navItems = [
-//   {label: "Home", href: "/"},
-//   {label: "About Us", href: "/about-novitrail"},
-//   {
-//     label: "Portfolio",
-//     href: "/portfolio",
-//     submenu: [
-//       {label: "Novitrail Products", href: "/portfolio/novitrail-products"},
-//       {label: "Pharmaceutical", href: "/portfolio/pharmaceuticals"},
-//       {label: "Surgical", href: "/portfolio/surgicals"},
-//     ],
-//   },
-// ];
+type NavItem = {
+  label: string;
+  href: string;
+  submenu?: Array<{
+    label: string;
+    href: string;
+  }>;
+};
 
-const navItems = [
+const navItems: NavItem[] = [
   {label: "Home", href: "/"},
   {label: "About Us", href: "/about-novitrail"},
   {
