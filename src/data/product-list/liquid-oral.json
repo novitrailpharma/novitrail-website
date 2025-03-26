@@ -1,0 +1,178 @@
+[
+    {
+        "sno":1,
+        "product":"Acetaminophen 125mg, Pseudoephedrine Sulphate 30mg and Chlorphenamine Maleate 2mg \/ 5mlSyrup"
+    },
+    {
+        "sno":2,
+        "product":"Albendazole Suspension 200mg\/5ml"
+    },
+    {
+        "sno":3,
+        "product":"Aluminium Hydroxide 830mg, Magnesium Hydroxide 180mg, Simethicone 50mg & Sodium CMC 100mg \/ 10ml Suspension"
+    },
+    {
+        "sno":4,
+        "product":"Ambroxol Hydrochloride 15mg and Salbutamol Sulphate 1mg \/ 5ml Syrup"
+    },
+    {
+        "sno":5,
+        "product":"Amino Acid + Multivitamin Syrup"
+    },
+    {
+        "sno":6,
+        "product":"Amoxicillin + Potassium Clavulanate Oral Suspension 156.25mg, 228.5mg, 281.25mg, 312.5mg, 457mg"
+    },
+    {
+        "sno":7,
+        "product":"Amoxicillin Oral Suspension 125mg & 250mg"
+    },
+    {
+        "sno":8,
+        "product":"Ampicillin Oral Suspension 125mg & 250mg"
+    },
+    {
+        "sno":9,
+        "product":"Azithromycin Suspension 200 mg per 5 ml"
+    },
+    {
+        "sno":10,
+        "product":"Bromhexine 4 mg, Tebutalamine Sulphate 1.25 mg, Guiafenesin 50 mg per 5 ml"
+    },
+    {
+        "sno":11,
+        "product":"Bromhexine Hydrochloride 1 mg & Chlophedianol Hydrochloride 7mg \/ 5ml Syrup"
+    },
+    {
+        "sno":12,
+        "product":"Carbocisteine Syrup 100mg \/ 5ml & 200mg\/5ml"
+    },
+    {
+        "sno":13,
+        "product":"Carboxymethylcysteine + Dextromethorphan hydrobromid + Chlorpheniramine Maleate Oral Suspension 150mg+5mg+2.5mg\/5ml"
+    },
+    {
+        "sno":14,
+        "product":"Cetirizine Oral Solution BP 5mg\/5ml"
+    },
+    {
+        "sno":15,
+        "product":"Codeine Phosphate 10 mg + Triprolidine 1.25 mg per 5 ml"
+    },
+    {
+        "sno":16,
+        "product":"Codeine Phosphate 10mg, Pseudoephedrine Hydrochloride 30mg and Chlorphenamine Maleate 2mg \/ 5ml Syrup"
+    },
+    {
+        "sno":17,
+        "product":"Concentrated Vitamin A Oral Solution 100,000 IU\/ml"
+    },
+    {
+        "sno":18,
+        "product":"Dexketoprofen Oral Suspension in Sachet 25mg\/10ml"
+    },
+    {
+        "sno":19,
+        "product":"Dextromethorphan HBr 10mg, CPM 2mg & Phenylephrine HCl 5mg \/ 5ml Syrup"
+    },
+    {
+        "sno":20,
+        "product":"Erythromycin Sterate Oral Suspension 125mg\/5ml"
+    },
+    {
+        "sno":21,
+        "product":"Ferrous Ascorbate + Folic Acid Syrup 50mg+0.75mg\/5ml"
+    },
+    {
+        "sno":22,
+        "product":"Ferrous Sulfate Oral Suspension 25mg\/ml"
+    },
+    {
+        "sno":23,
+        "product":"Flucloxacillin Oral Suspension 125mg & 250mg"
+    },
+    {
+        "sno":24,
+        "product":"Hydroxyzine Hydrochloride Oral Solution 10mg\/5ml"
+    },
+    {
+        "sno":25,
+        "product":"Ibuprofen 100mg & Paracetamol 125mg \/ 5ml Suspension"
+    },
+    {
+        "sno":26,
+        "product":"Ibuprofen Oral Suspension BP 100mg\/5ml & 200mg\/5ml"
+    },
+    {
+        "sno":27,
+        "product":"Iron (As polymaltosed iron(III) hydroxide complex) Drops 50mg\/ml"
+    },
+    {
+        "sno":28,
+        "product":"Lactulose Solution 3.35g\/5ml & 5g\/5ml"
+    },
+    {
+        "sno":29,
+        "product":"Levetiracetam Oral Solution USP 100mg\/ml"
+    },
+    {
+        "sno":30,
+        "product":"Levocetirizine Hydrochloride Syrup 2.5mg \/ 5ml"
+    },
+    {
+        "sno":31,
+        "product":"Levofloxacin Oral Suspension 125mg\/5ml"
+    },
+    {
+        "sno":32,
+        "product":"Metoclopramide Oral Solution BP 5mg \/ 5ml"
+    },
+    {
+        "sno":33,
+        "product":"Metronidazole Oral Suspension BP 200 mg \/ 5 ml"
+    },
+    {
+        "sno":34,
+        "product":"Nitazoxanide Oral Suspension 100mg\/5ml"
+    },
+    {
+        "sno":35,
+        "product":"Ondansetron Oral Solution 2mg\/5ml"
+    },
+    {
+        "sno":36,
+        "product":"Paracetamol Oral Suspension BP 100mg\/5ml, 120mg\/5ml & 250mg\/5ml"
+    },
+    {
+        "sno":37,
+        "product":"Phenytoin Oral Suspension BP 125mg \/ 5 ml"
+    },
+    {
+        "sno":38,
+        "product":"Povidone Iodine Mouthwash 10mg\/ml"
+    },
+    {
+        "sno":39,
+        "product":"Povidone Iodine Oral Solution 50mg\/ml, 75mg\/ml & 100mg\/ml"
+    },
+    {
+        "sno":40,
+        "product":"Promethazine Oral Solution BP 5mg\/5ml"
+    },
+    {
+        "sno":41,
+        "product":"Rececadotril Oral Suspension 10mg\/5ml"
+    },
+    {
+        "sno":42,
+        "product":"Salbutamol Oral Solution BP 2mg \/ 5ml"
+    },
+    {
+        "sno":43,
+        "product":"Simethicone + Magaldrate Oral Suspension 60mg+800mg\/10ml"
+    },
+    {
+        "sno":44,
+        "product":"Sucralfate Oral Suspension 1g\/5ml & 1g\/10ml"
+    }
+]

@@ -6,7 +6,7 @@ const QuickLinks: React.FC = () => {
     {text: "Home", href: "/"},
     {text: "About Us", href: "/about-novitrail"},
     {text: "Portfolio", href: "/portfolio"},
-    {text: "Novitrail Products", href: "/portfolio/novitrail-products"},
+    {text: "Novitrail Products", href: "/novitrail-products"},
     {text: "Pharmaceutical Products Portfolio", href: "/portfolio/pharmaceuticals"},
     {text: "Surgical Products Portfolio", href: "/portfolio/surgicals"},
     {text: "Contact Us Form", href: "/contact-us"},

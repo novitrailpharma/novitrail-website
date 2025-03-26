@@ -1,0 +1,198 @@
+[
+    {
+        "sno":1,
+        "product":"Aceclofenac Gel 1% 30g"
+    },
+    {
+        "sno":2,
+        "product":"Aciclovir Cream 5% 5g, 10g & 15g"
+    },
+    {
+        "sno":3,
+        "product":"Adapalene & Clindamycin Phosphate Gel 15g, 20g & 30g"
+    },
+    {
+        "sno":4,
+        "product":"Adapalene Gel 0.1% 10g & 15g"
+    },
+    {
+        "sno":5,
+        "product":"Amorolfine Cream 0.25% 15g & 30g"
+    },
+    {
+        "sno":6,
+        "product":"Betamethasone Cream 0.05% 10g & 15g"
+    },
+    {
+        "sno":7,
+        "product":"Bifonazole Cream\u00a0 1.0% 20g & 50g"
+    },
+    {
+        "sno":8,
+        "product":"Calcipotriene + Betamethasone Cream 60g"
+    },
+    {
+        "sno":9,
+        "product":"Calcipotriene Ointment & Cream 0.005% 60g"
+    },
+    {
+        "sno":10,
+        "product":"Calcipotriene Scalp Solution 60ml"
+    },
+    {
+        "sno":11,
+        "product":"Clindamycin & Nicotinamide Gel 15g, 20g & 30g"
+    },
+    {
+        "sno":12,
+        "product":"Clindamycin Gel 1% 15g, 20g & 30g"
+    },
+    {
+        "sno":13,
+        "product":"Clindamycin Lotion 60ml"
+    },
+    {
+        "sno":14,
+        "product":"Clobetasol Propionate & Fusidic Acid Cream\u00a0 15g & 20g"
+    },
+    {
+        "sno":15,
+        "product":"Clobetasol Propionate & Salicylic Acid Ointment 15g & 30g"
+    },
+    {
+        "sno":16,
+        "product":"Clobetasol Propionate Cream & Ointment 0.05% 15g & 30g"
+    },
+    {
+        "sno":17,
+        "product":"Clobetasol Propionate, Neomycin Sulphate & Miconazole Cream 15g"
+    },
+    {
+        "sno":18,
+        "product":"Clotrimazole Cream 1% 10g & 15g"
+    },
+    {
+        "sno":19,
+        "product":"Diclofenac 1% & 2% & Menthol, Linseed Oil, Methyl Salicylate Gel 30g"
+    },
+    {
+        "sno":20,
+        "product":"Diclofenac Gel 1% 15g, 25g, 30g & 100g"
+    },
+    {
+        "sno":21,
+        "product":"Doxepin Hydrochloride Cream 5% 45g"
+    },
+    {
+        "sno":22,
+        "product":"Eberconazole Cream 1% 30g & 50g"
+    },
+    {
+        "sno":23,
+        "product":"Fluticasone Cream 0.05% 15g & 30g"
+    },
+    {
+        "sno":24,
+        "product":"Fusidic Acid\u00a0 and Beclomethasone Cream\u00a0 10g & 20g"
+    },
+    {
+        "sno":25,
+        "product":"Fusidic Acid Cream 2% 5g, 7.5g & 10g"
+    },
+    {
+        "sno":26,
+        "product":"Fusidic Cream 2% 15g"
+    },
+    {
+        "sno":27,
+        "product":"Gamma benzene Hexachloride & Cetrimide Emulsion 60ml & 100ml"
+    },
+    {
+        "sno":28,
+        "product":"Halcinonide Cream 0.1% 60g"
+    },
+    {
+        "sno":29,
+        "product":"Helobetasol Propionate Cream 0.05% 15 & 20g"
+    },
+    {
+        "sno":30,
+        "product":"Hydrocortisone Cream 0.1% & 2.5% 10g, 15g, 20g & 30g"
+    },
+    {
+        "sno":31,
+        "product":"Ketoconazole & Zinc pyrithione (ZPTO) Shampoo 60ml & 100ml"
+    },
+    {
+        "sno":32,
+        "product":"Ketoconazole Cream 2% 15g, 30g, 50g & 100g"
+    },
+    {
+        "sno":33,
+        "product":"Ketoconazole Shampoo 2% 60ml & 100ml\u00a0"
+    },
+    {
+        "sno":34,
+        "product":"Luliconazole Cream 1% 10g, 15g, 20g, 30g & 50g"
+    },
+    {
+        "sno":35,
+        "product":"Luliconazole Lotion 1% 30ml & 50ml\u00a0"
+    },
+    {
+        "sno":36,
+        "product":"Metronidazole Cream 0.75% 45g"
+    },
+    {
+        "sno":37,
+        "product":"Miconazole Cream & Ointment 2% 5g, 15g & 30g"
+    },
+    {
+        "sno":38,
+        "product":"Minoxidil Solution 5% 60ml & 100ml"
+    },
+    {
+        "sno":39,
+        "product":"Mometasone Furoate cream 0.1% 15g & 30g"
+    },
+    {
+        "sno":40,
+        "product":"Mupirocin cream & ointment 2% 5g, 10g & 15g"
+    },
+    {
+        "sno":41,
+        "product":"Nadifloxacin Ointment 10g & 20g"
+    },
+    {
+        "sno":42,
+        "product":"Permethrin Lotion 5% 50ml & 100ml"
+    },
+    {
+        "sno":43,
+        "product":"Pimecrolimus Cream 1% 15g"
+    },
+    {
+        "sno":44,
+        "product":"Povidone Iodine Ointment 5% & 10% 15g, 20g, 50g, 100g & 250g"
+    },
+    {
+        "sno":45,
+        "product":"Sertaconazole Nitrate Cream 2% 15g & 20g"
+    },
+    {
+        "sno":46,
+        "product":"Silver Sulfadiazine Cream 1% 15g, 25g, 50g, 100g & 250g"
+    },
+    {
+        "sno":47,
+        "product":"Tacrolimus Ointment 0.03% & 1% 5g & 15g"
+    },
+    {
+        "sno":48,
+        "product":"Terbinafine Cream 1% 15g, 30g & 100g"
+    },
+    {
+        "sno":49,
+        "product":"Vitamin A & D Ointment 30g, 60g & 120g"
+    }
+]

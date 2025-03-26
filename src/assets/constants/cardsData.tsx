@@ -139,7 +139,7 @@ export const navCardsData = {
 		{
 			icon: <Image src={"/logo-short.png"} alt={"Novitrail Logo"} width={36} height={36}/>,
 			title: "Novitrail Product Portfolio",
-			href: "/portfolio/novitrail-products",
+			href: "/novitrail-products",
 			content: "Discover our comprehensive range of pharmaceutical products, including specialty medicines, generic drugs, and surgical disposables."
 		},
 		{

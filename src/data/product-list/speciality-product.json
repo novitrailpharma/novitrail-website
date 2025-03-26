@@ -1,0 +1,182 @@
+[
+    {
+        "sno":"Antiretroviral",
+        "product":null
+    },
+    {
+        "sno":"1",
+        "product":"Darunavir 800mg Tablet"
+    },
+    {
+        "sno":"2",
+        "product":"Declatasvir 60mg Tablet"
+    },
+    {
+        "sno":"3",
+        "product":"Entecavir 0.5mg & 1mg Tablet"
+    },
+    {
+        "sno":"4",
+        "product":"Molnupiravir 200mg & 400mg Capsules\u00a0"
+    },
+    {
+        "sno":"5",
+        "product":"Raltegravir 400mg Sachet"
+    },
+    {
+        "sno":"6",
+        "product":"Raltegravir 400mg Tablet"
+    },
+    {
+        "sno":"7",
+        "product":"Ritonavir 100mg Tablet (Under Development)"
+    },
+    {
+        "sno":"8",
+        "product":"Sofosbuvir 400mg + Velpatasvir 100mg Tablet"
+    },
+    {
+        "sno":"9",
+        "product":"Sofusbuvir 400mg Tablet"
+    },
+    {
+        "sno":"10",
+        "product":"Tenofovir Disoproxil Fumarate 300mg + Emtricitabine 200mg Tablet (Under Development)"
+    },
+    {
+        "sno":"11",
+        "product":"Tenofovir Disoproxil Fumarate 300mg Tablet"
+    },
+    {
+        "sno":"Hormonal",
+        "product":null
+    },
+    {
+        "sno":"12",
+        "product":"Progesterone 100mg & 200mg Soft Gelatin Capsule"
+    },
+    {
+        "sno":"13",
+        "product":"Allylestrenol 5mg Tablet"
+    },
+    {
+        "sno":"14",
+        "product":"Combipack of Mifepristone 200mg & Misoprostol 200mcg Tablet"
+    },
+    {
+        "sno":"15",
+        "product":"Desogestrel + Ethinyloestradiol 0.15mg+0.3mg & 0.15mg + 0.02mg Tablet"
+    },
+    {
+        "sno":"16",
+        "product":"Desogestrel 0.075mg Tablet"
+    },
+    {
+        "sno":"17",
+        "product":"Drospirenone + Ethinyloestradiol 3mg+0.03mg & 3mg+0.02mg Tablet"
+    },
+    {
+        "sno":"18",
+        "product":"Estradiol Valerate 2mg Tablet"
+    },
+    {
+        "sno":"19",
+        "product":"Ethinyloestradiol 0.035mg + Cyperoterone Acetate 2mg Tablet"
+    },
+    {
+        "sno":"20",
+        "product":"Letrozole 2.5mg Tablet"
+    },
+    {
+        "sno":"21",
+        "product":"Levonorgestrel 0.250mg + Ethinyloestradiol 0.050mg Tablet"
+    },
+    {
+        "sno":"22",
+        "product":"Levonorgestrel 0.15mg + Ethinyloestradiol 0.03mg Tablet"
+    },
+    {
+        "sno":"23",
+        "product":"Levonorgestrel 0.15mg + Ethinyloestradiol 0.03mg with Ferrous Fumarate 60mg & 75mg Tablet"
+    },
+    {
+        "sno":"24",
+        "product":"Levonorgestrel 0.03mg, 0.75mg & 1.5mg Tablet"
+    },
+    {
+        "sno":"25",
+        "product":"Medroxyprogesterone Acetate 5mg & 10mg Tablet"
+    },
+    {
+        "sno":"26",
+        "product":"Mifepristone 200mg Tablet"
+    },
+    {
+        "sno":"27",
+        "product":"Misoprostol 25mcg, 200mcg & 600mcg Tablet"
+    },
+    {
+        "sno":"28",
+        "product":"Norethisterone 5mg Tablet"
+    },
+    {
+        "sno":"29",
+        "product":"Norgestrel 0.5mg + Ethinyloestradiol 0.05mg Tablet"
+    },
+    {
+        "sno":"30",
+        "product":"Progesterone 200mg & 300mg Tablet"
+    },
+    {
+        "sno":"31",
+        "product":"Medroxyprogesterone Acetate 150mg\/1ml Injection"
+    },
+    {
+        "sno":"32",
+        "product":"Hydroxyprogesterone Caproate 250mg\/1ml Injection"
+    },
+    {
+        "sno":"Contrast Media",
+        "product":null
+    },
+    {
+        "sno":"33",
+        "product":"Iodixanol 150mg\/ml, 270mg\/ml, 320mg\/ml 20ml, 50ml & 100ml Glass Vial"
+    },
+    {
+        "sno":"34",
+        "product":"Iohexol 240mg\/ml, 300mg\/ml, 350mg\/ml 20ml, 50ml & 100ml Glass Vial"
+    },
+    {
+        "sno":"35",
+        "product":"Iopamidol 200mg\/ml, 300mg\/ml, 370mg\/ml 30ml, 50ml & 100ml Glass Vial"
+    },
+    {
+        "sno":"36",
+        "product":"Iopromide 240mg\/ml, 300mg\/ml, 370mg\/ml 20ml, 50ml & 100ml Glass Vial"
+    },
+    {
+        "sno":"37",
+        "product":"Ioversol 240mg\/ml, 300mg\/ml, 320mg\/ml, 350mg\/ml 20ml, 50ml & 100ml Glass Vial"
+    },
+    {
+        "sno":"38",
+        "product":"Gadodiamide 0.5mmol\/ml 10ml, 15ml & 20ml Glass Vial"
+    },
+    {
+        "sno":"39",
+        "product":"Gadopentetate Dimeglumine 469.01mg\/ml 10ml, 20ml & 50ml Glass Vial"
+    },
+    {
+        "sno":"40",
+        "product":"1mmol\/ml 10ml, 15ml, 20ml & 30ml Glass Vial"
+    },
+    {
+        "sno":"41",
+        "product":"Amidotrizoate Sodium & Meglumine 600mg\/ml, 760mg\/ml 20ml Glass Vial"
+    },
+    {
+        "sno":"42",
+        "product":"Barium Sulphate (Oral\/Rectal Powder) 98% & 98.8%"
+    }
+]

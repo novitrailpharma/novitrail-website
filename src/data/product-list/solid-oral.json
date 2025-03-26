@@ -1,0 +1,626 @@
+[
+    {
+        "sno":1,
+        "product":"Aceclofenac 100mg + Paracetamol 500mg Tablet"
+    },
+    {
+        "sno":2,
+        "product":"Acyclovir 200mg, 400mg & 800mg Tablet"
+    },
+    {
+        "sno":3,
+        "product":"Allopurino 100mg & 300mg Tablet"
+    },
+    {
+        "sno":4,
+        "product":"Aluminium Hydroxide + magnesium Trisilicate 120mg+250mg Chewable Tablet"
+    },
+    {
+        "sno":5,
+        "product":"Amitriptyline 10mg & 25mg Tablet"
+    },
+    {
+        "sno":6,
+        "product":"Amlodipine + telmisartan 5mg+40mg & 5mg+80mg Tablet"
+    },
+    {
+        "sno":7,
+        "product":"Amlodipine + Valsartan 5mg+80mg & 5mg+160mg Tablet"
+    },
+    {
+        "sno":8,
+        "product":"Amlodipine 2.5mg, 5mg & 10mg Tablet"
+    },
+    {
+        "sno":9,
+        "product":"Amoxicillin + Clavulanic Acid 625mg & 1000mg Tablet"
+    },
+    {
+        "sno":10,
+        "product":"Apixaban 2.5mg & 5mg Tablet"
+    },
+    {
+        "sno":11,
+        "product":"Aspirin + Clopidogrel 75mg+75mg & 150mg+75mg Tablet"
+    },
+    {
+        "sno":12,
+        "product":"Aspirin 75mg & 150mg Tablet"
+    },
+    {
+        "sno":13,
+        "product":"Atenolol 50mg Tablet"
+    },
+    {
+        "sno":14,
+        "product":"Atorvastatin 10mg & 20mg Tablet"
+    },
+    {
+        "sno":15,
+        "product":"Azithromycin 250mg & 500mg Tablets"
+    },
+    {
+        "sno":16,
+        "product":"Baclofen 25mg & 50mg Tablet"
+    },
+    {
+        "sno":17,
+        "product":"Betahistine 16mg Tablet"
+    },
+    {
+        "sno":18,
+        "product":"Bisacodyl 5mg Tablet"
+    },
+    {
+        "sno":19,
+        "product":"Bisoprolol 2.5mg, 5mg & 10mg Tablet"
+    },
+    {
+        "sno":20,
+        "product":"Calcium Carbonate 1250mg + Vitamin D 400IU Tablets"
+    },
+    {
+        "sno":21,
+        "product":"Calcium Citrate 1000 mg + Magnesium 100 mg + Zinc 4 mg, Vitamin D3 200 IU Tablet"
+    },
+    {
+        "sno":22,
+        "product":"Calcium Dobesilate 500mg Capsule"
+    },
+    {
+        "sno":23,
+        "product":"Captopril 12.5mg & 25mg Tablet"
+    },
+    {
+        "sno":24,
+        "product":"Carbamazepine 200 mg Tablet"
+    },
+    {
+        "sno":25,
+        "product":"Carbidopa + Levodopa 10mg+100mg Tablet"
+    },
+    {
+        "sno":26,
+        "product":"Carvedilol 3.125mg, 6.25mg & 12.5mg Tablet"
+    },
+    {
+        "sno":27,
+        "product":"Cefixime 400mg Tablet"
+    },
+    {
+        "sno":28,
+        "product":"Cefuroxime 500mg Tablet"
+    },
+    {
+        "sno":29,
+        "product":"Celecoxib 100mg & 200mg Capsule"
+    },
+    {
+        "sno":30,
+        "product":"Cholecalciferol 60000 IU Tablet"
+    },
+    {
+        "sno":31,
+        "product":"Cimetidine 200mg Tablet"
+    },
+    {
+        "sno":32,
+        "product":"Ciprofloxacin 500mg Tablet"
+    },
+    {
+        "sno":33,
+        "product":"Citicoline 500mg Tablet"
+    },
+    {
+        "sno":34,
+        "product":"Clarithromycin 250mg & 500mg Tablets"
+    },
+    {
+        "sno":35,
+        "product":"Clindamycin 150mg & 300mg Capsule"
+    },
+    {
+        "sno":36,
+        "product":"Clomiphene Citrate 25mg, 50mg & 100mg Tablet"
+    },
+    {
+        "sno":37,
+        "product":"Clonazepam 1mg & 2mg Tablet"
+    },
+    {
+        "sno":38,
+        "product":"Clopidogrel 75mg Tablet"
+    },
+    {
+        "sno":39,
+        "product":"Clotrimazole 100mg Pessaries"
+    },
+    {
+        "sno":40,
+        "product":"Co-trimoxazole 480mg Tablet"
+    },
+    {
+        "sno":41,
+        "product":"Cyclosporin 50mg & 100mg Capsule"
+    },
+    {
+        "sno":42,
+        "product":"Dapagliflozin + Metformin 5mg+500mg; 5mg+1000mg; 10mg+500mg; 10mg+1000mg Tablet"
+    },
+    {
+        "sno":43,
+        "product":"Dapagliflozin 5mg & 10mg Tablet"
+    },
+    {
+        "sno":44,
+        "product":"Dapoxetin 30mg & 60mg Tablet"
+    },
+    {
+        "sno":45,
+        "product":"Deferasirox 500mg Tablet"
+    },
+    {
+        "sno":46,
+        "product":"Deflazacort 6mg & 30mg Tablet"
+    },
+    {
+        "sno":47,
+        "product":"Desloratidine 5mg Tablet"
+    },
+    {
+        "sno":48,
+        "product":"Dexamethasone 0.5mg & 2mg Tablet"
+    },
+    {
+        "sno":49,
+        "product":"Diazepam 5mg & 10mg Tablet"
+    },
+    {
+        "sno":50,
+        "product":"Diclofenac Sodium 50mg Tablets"
+    },
+    {
+        "sno":51,
+        "product":"Dicyclomine HCL 20mg Tablet"
+    },
+    {
+        "sno":52,
+        "product":"Diphenhydramine 25mg Capsule"
+    },
+    {
+        "sno":53,
+        "product":"Divalproex Sodium\u00a0 250mg & 500mg Tablet"
+    },
+    {
+        "sno":54,
+        "product":"Doxycycline 100mg & 200mg Capsule"
+    },
+    {
+        "sno":55,
+        "product":"Duloxetine 30mg & 60mg Capsule"
+    },
+    {
+        "sno":56,
+        "product":"Erythromycin 250mg & 500mg Tablet"
+    },
+    {
+        "sno":57,
+        "product":"Escitalopram 5mg, 10mg, 15mg & 20mg Tablet"
+    },
+    {
+        "sno":58,
+        "product":"Esomeprazole 20mg & 40mg Tablet \/ Capsule"
+    },
+    {
+        "sno":59,
+        "product":"Etoricoxib 60mg, 90mg & 120mg Tablet"
+    },
+    {
+        "sno":60,
+        "product":"Everolimus 0.5mg Tablet"
+    },
+    {
+        "sno":61,
+        "product":"Febuxostat 40mg & 80mg Tablet"
+    },
+    {
+        "sno":62,
+        "product":"Fexofinadine 120mg Tablet"
+    },
+    {
+        "sno":63,
+        "product":"Finasteride 5mg Tablet"
+    },
+    {
+        "sno":64,
+        "product":"Finofibrate 160mg Tablet"
+    },
+    {
+        "sno":65,
+        "product":"Fluconazole 50mg, 150mg & 200mg Tablet"
+    },
+    {
+        "sno":66,
+        "product":"Flunarizine 10mg Tablet"
+    },
+    {
+        "sno":67,
+        "product":"Fluoxetin 10mg & 20mg Capsule"
+    },
+    {
+        "sno":68,
+        "product":"Furosemide 40mg Tablet"
+    },
+    {
+        "sno":69,
+        "product":"Gabapentin 100mg & 300mg Tablet"
+    },
+    {
+        "sno":70,
+        "product":"Hydralazine 25mg Tablet"
+    },
+    {
+        "sno":71,
+        "product":"Hydrocortisone\u00a0 20mg Tablet"
+    },
+    {
+        "sno":72,
+        "product":"Hyoscine Butyl Bromide 10mg Tablet"
+    },
+    {
+        "sno":73,
+        "product":"Ibandronate 150mg Tablet"
+    },
+    {
+        "sno":74,
+        "product":"Ibuprofen 200mg, 400mg & 600mg Tablet"
+    },
+    {
+        "sno":75,
+        "product":"Indomethacine 25mg Tablet"
+    },
+    {
+        "sno":76,
+        "product":"Irbesartan 150mg & 300mg Tablet"
+    },
+    {
+        "sno":77,
+        "product":"Isosorbide Dinitrate 10mg Tablet"
+    },
+    {
+        "sno":78,
+        "product":"Itraconazole 100mg Capsule"
+    },
+    {
+        "sno":79,
+        "product":"Labetalol 200mg Tablet"
+    },
+    {
+        "sno":80,
+        "product":"Lamotrigine 25mg, 50mg & 100mg Tablet"
+    },
+    {
+        "sno":81,
+        "product":"Levetiracetam 250mg & 500mg Tablet"
+    },
+    {
+        "sno":82,
+        "product":"Levocetrizine 5mg + Montelukast 10mg Tablet"
+    },
+    {
+        "sno":83,
+        "product":"Levofloxacin 250mg, 500mg & 750mg Tablets"
+    },
+    {
+        "sno":84,
+        "product":"Levothyroxine 50mg & 100mcg Tablet"
+    },
+    {
+        "sno":85,
+        "product":"Linezolid 600mg Tablet"
+    },
+    {
+        "sno":86,
+        "product":"Loperamide 2mg Tablet"
+    },
+    {
+        "sno":87,
+        "product":"Loratidine 10mg Tablet"
+    },
+    {
+        "sno":88,
+        "product":"Lorazepam 1mg Tablet"
+    },
+    {
+        "sno":89,
+        "product":"Lornoxicam 8mg Tablet"
+    },
+    {
+        "sno":90,
+        "product":"Losartan 25mg, 50mg & 100mg Tablet"
+    },
+    {
+        "sno":91,
+        "product":"Meloxicam 7.5mg & 15mg Tablet"
+    },
+    {
+        "sno":92,
+        "product":"Meprobamate 400mg Tablet"
+    },
+    {
+        "sno":93,
+        "product":"Metformin + Sitagliptin 500mg+50mg, 500mg+100mg, 1000mg+50mg; 1000mg+100mg Tablet"
+    },
+    {
+        "sno":94,
+        "product":"Methyldopa 250mg Tablet"
+    },
+    {
+        "sno":95,
+        "product":"Methylprednisolone 4mg, 8mg & 16mg Tablets"
+    },
+    {
+        "sno":96,
+        "product":"Metoprolol 25mg, 50mg & 100mg Tablet"
+    },
+    {
+        "sno":97,
+        "product":"Moxifloxacin 400mg Tablets"
+    },
+    {
+        "sno":98,
+        "product":"Mycophenolate Mofetil 250mg & 500mg Tablet"
+    },
+    {
+        "sno":99,
+        "product":"Mycophenolate Sodium 180mg & 360mg Tablet"
+    },
+    {
+        "sno":100,
+        "product":"Nifedipine 10mg, 20mg & 30mg Tablet"
+    },
+    {
+        "sno":101,
+        "product":"Nystatin 500,000IU Tablet"
+    },
+    {
+        "sno":102,
+        "product":"Olanzapine 5mg & 10mg Tablet"
+    },
+    {
+        "sno":103,
+        "product":"Olmesartan 20mg Tablet"
+    },
+    {
+        "sno":104,
+        "product":"Omeprazole + Domperidone 20mg+10mg Capsule"
+    },
+    {
+        "sno":105,
+        "product":"Omeprazole 20mg & 40mg Capsule"
+    },
+    {
+        "sno":106,
+        "product":"Oxybutynin 2mg Tablet"
+    },
+    {
+        "sno":107,
+        "product":"Pantoprazol 20mg & 40mg Tablets"
+    },
+    {
+        "sno":108,
+        "product":"Paracetamol 500mg + Caffiene 30mg Tablet"
+    },
+    {
+        "sno":109,
+        "product":"Phenobarbital 100mg Tablet"
+    },
+    {
+        "sno":110,
+        "product":"Phenytoin 25mg Tablet"
+    },
+    {
+        "sno":111,
+        "product":"Piracetam 800mg Tablet"
+    },
+    {
+        "sno":112,
+        "product":"Piroxicam 20mg Capsule"
+    },
+    {
+        "sno":113,
+        "product":"Potassium Iodide 100mcg & 200mcg Tablet"
+    },
+    {
+        "sno":114,
+        "product":"Prednisolone 20mg Tablet"
+    },
+    {
+        "sno":115,
+        "product":"Pregabaline 75mg, 150mg & 300mg Tablet \/ Capsule"
+    },
+    {
+        "sno":116,
+        "product":"Primaquine 15mg Tablet"
+    },
+    {
+        "sno":117,
+        "product":"Probenecid 500mg Tablet"
+    },
+    {
+        "sno":118,
+        "product":"Prochlorparazine 5mg Tablet"
+    },
+    {
+        "sno":119,
+        "product":"Promethazine 25mg Tablet"
+    },
+    {
+        "sno":120,
+        "product":"Propranolol 40mg Tablet"
+    },
+    {
+        "sno":121,
+        "product":"Pyridoxine 300mg Tablet"
+    },
+    {
+        "sno":122,
+        "product":"Quetiapine 100mg, 200mg & 300mg Tablet"
+    },
+    {
+        "sno":123,
+        "product":"Rabeprazole 10mg & 20mg Tablets"
+    },
+    {
+        "sno":124,
+        "product":"Ramipril 5mg & 10mg Tablet"
+    },
+    {
+        "sno":125,
+        "product":"Risperidone 1mg, 2mg & 3mg Tablet"
+    },
+    {
+        "sno":126,
+        "product":"Rivaroxaban 10mg, 15mg & 20mg Tablet"
+    },
+    {
+        "sno":127,
+        "product":"Rosuvastatin 5mg, 10mg, 20mg, 40mg & 80mg Tablet"
+    },
+    {
+        "sno":128,
+        "product":"Roxithromycin 50mg & 150mg Tablet"
+    },
+    {
+        "sno":129,
+        "product":"Sertraline"
+    },
+    {
+        "sno":130,
+        "product":"Sildenafil + Dapoxetin 50mg+30mg & 100mg+50mg Tablet"
+    },
+    {
+        "sno":131,
+        "product":"Sildenafil 50mg & 100mg Tablet"
+    },
+    {
+        "sno":132,
+        "product":"Simvastatin 20mg Tablet"
+    },
+    {
+        "sno":133,
+        "product":"Sitagliptin 50mg & 100mg Tablet"
+    },
+    {
+        "sno":134,
+        "product":"Spironolactone 25mg, 50mg & 100 Tablet \/ Capsule"
+    },
+    {
+        "sno":135,
+        "product":"Tacrolimus 1mg Capsule"
+    },
+    {
+        "sno":136,
+        "product":"Tadalafil 10mg & 20mg Tablet"
+    },
+    {
+        "sno":137,
+        "product":"Tamsulosin 0.4mg + Dutasteride 0.5mg Capsule"
+    },
+    {
+        "sno":138,
+        "product":"Tamsulosin 0.4mg Capsule"
+    },
+    {
+        "sno":139,
+        "product":"Tapentadol 50mg & 100mg Tablet"
+    },
+    {
+        "sno":140,
+        "product":"Telmisartan + Hydrochlorthiazide 40mg + 12.5mg; 80mg+12.5mg Tablet"
+    },
+    {
+        "sno":141,
+        "product":"Telmisartan 40mg & 80mg Tablet"
+    },
+    {
+        "sno":142,
+        "product":"Teneligliptin 20mg Tablet"
+    },
+    {
+        "sno":143,
+        "product":"Terbinafine 250mg & 500mg Tablet"
+    },
+    {
+        "sno":144,
+        "product":"Tetracycline 250mg Capsule"
+    },
+    {
+        "sno":145,
+        "product":"Thiocolchicoside 4mg Capsule"
+    },
+    {
+        "sno":146,
+        "product":"Tolvaptan 15mg Tablet"
+    },
+    {
+        "sno":147,
+        "product":"Torsemide 10mg & 20mg Tablet"
+    },
+    {
+        "sno":148,
+        "product":"Tramadol + Paracetamol 50mg + 325mg Tablet"
+    },
+    {
+        "sno":149,
+        "product":"Tramadol 50mg Tablet"
+    },
+    {
+        "sno":150,
+        "product":"Tranexamic Acid 500mg Tablet"
+    },
+    {
+        "sno":151,
+        "product":"Valsartan + Hydrochlorthiazide 80mg+12.5mg & 160mg+12.5mg Tablet"
+    },
+    {
+        "sno":152,
+        "product":"Valsartan 80mg Tablet"
+    },
+    {
+        "sno":153,
+        "product":"Venlafaxine 37.5mg, 75mg & 150mg Capsule"
+    },
+    {
+        "sno":154,
+        "product":"Vildagliptin 50mg Tablet"
+    },
+    {
+        "sno":155,
+        "product":"Vildagliptin+Metformin 50mg+500mg; 50mg+1000mg Tablet"
+    },
+    {
+        "sno":156,
+        "product":"Voriconazole 50mg & 200mg Tablets"
+    }
+]

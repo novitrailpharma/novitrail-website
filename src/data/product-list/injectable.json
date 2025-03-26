@@ -1,0 +1,386 @@
+[
+    {
+        "sno":1,
+        "product":"Acyclovir 250mg & 500mg Injection"
+    },
+    {
+        "sno":2,
+        "product":"Amikacin 250mg\/ml 2ml Injection"
+    },
+    {
+        "sno":3,
+        "product":"Anidulafungin 100mg Injection"
+    },
+    {
+        "sno":4,
+        "product":"Atosiban 37.5mg\/5ml Injection"
+    },
+    {
+        "sno":5,
+        "product":"Atracurium 10mg\/ml 2.5ml & 5ml Injection"
+    },
+    {
+        "sno":6,
+        "product":"Azithromycin 500mg Injection"
+    },
+    {
+        "sno":7,
+        "product":"Bupivacaine 5mg\/ml 10ml & 20ml Injection"
+    },
+    {
+        "sno":8,
+        "product":"Bupivacaine Heavy 5mg\/ml +0.9% 4ml Injection"
+    },
+    {
+        "sno":9,
+        "product":"Caspofungin 50mg & 70mg Injection"
+    },
+    {
+        "sno":10,
+        "product":"Ceftriaxone 100mg + Lidocaine Injection"
+    },
+    {
+        "sno":11,
+        "product":"Cisatracurium 2mg\/ml 5ml & 10ml Injection"
+    },
+    {
+        "sno":12,
+        "product":"Citicoline 500mg\/2ml Injection"
+    },
+    {
+        "sno":13,
+        "product":"Clarithromycin 500mg Injection"
+    },
+    {
+        "sno":14,
+        "product":"Clindamycin 150mg\/ml 2ml & 4ml Injection"
+    },
+    {
+        "sno":15,
+        "product":"Colistemethate (Colistine) 1MIU, 2MIU, 3MIU & 4.5MIU Injection"
+    },
+    {
+        "sno":16,
+        "product":"Daptomycin 500mg Injection"
+    },
+    {
+        "sno":17,
+        "product":"Dexamethasone 4mg\/ml 2ml Injection"
+    },
+    {
+        "sno":18,
+        "product":"Dexmedetomidine 100mcg\/ml 2ml Injection"
+    },
+    {
+        "sno":19,
+        "product":"Diclofenac Sodium 25mg\/ml 3ml Injection"
+    },
+    {
+        "sno":20,
+        "product":"Dobutamine 50mg\/ml 5ml & 12.5mg\/ml 20ml Injection"
+    },
+    {
+        "sno":21,
+        "product":"Dopamine 40mg\/ml 5ml Injection"
+    },
+    {
+        "sno":22,
+        "product":"Enoxaparin 20mg, 40mg & 60mg Injection"
+    },
+    {
+        "sno":23,
+        "product":"Ertapenem 1000mg Injection"
+    },
+    {
+        "sno":24,
+        "product":"Esomeprazole 40mg Injection"
+    },
+    {
+        "sno":25,
+        "product":"Fentanyl 50mcg\/ml 2ml & 10ml Injection"
+    },
+    {
+        "sno":26,
+        "product":"Fluphenazine Decanoate 25mg\/ml 1ml Injection"
+    },
+    {
+        "sno":27,
+        "product":"Fulvestrant 250mg\/5ml PFS Injection"
+    },
+    {
+        "sno":28,
+        "product":"Furosemide 10mg\/ml 2ml Injection"
+    },
+    {
+        "sno":29,
+        "product":"Ganciclovir 500mg Injection"
+    },
+    {
+        "sno":30,
+        "product":"Granisetron 1mg\/ml 1ml & 3ml Injection"
+    },
+    {
+        "sno":31,
+        "product":"Haloperidol Decanoate 100mg\/ml 5ml Injection"
+    },
+    {
+        "sno":32,
+        "product":"Heparin 5000IU\/5ml & 25000IU\/5ml Injection"
+    },
+    {
+        "sno":33,
+        "product":"Hydrocortisone 100mg Injection\u00a0"
+    },
+    {
+        "sno":34,
+        "product":"Hydroxyprogesterone Caproate 250mg\/ml 1ml Injection"
+    },
+    {
+        "sno":35,
+        "product":"Imipenem 500mg + Cilastatin 500mg Injection"
+    },
+    {
+        "sno":36,
+        "product":"Indomethacin 1mg Injection"
+    },
+    {
+        "sno":37,
+        "product":"Iron Sucrose 20mg\/ml 5ml Injection"
+    },
+    {
+        "sno":38,
+        "product":"Ketamine 50mg\/ml 10ml Injection"
+    },
+    {
+        "sno":39,
+        "product":"Ketoprofen 50mg\/ml 2ml Injection"
+    },
+    {
+        "sno":40,
+        "product":"Ketorolac 30mg\/ml 1ml & 2ml Injection"
+    },
+    {
+        "sno":41,
+        "product":"Labetalol 5mg\/ml 20ml Injection"
+    },
+    {
+        "sno":42,
+        "product":"Lansoprazole 30mg Injection"
+    },
+    {
+        "sno":43,
+        "product":"Levetiracetam 100mg\/ml 5ml Injection"
+    },
+    {
+        "sno":44,
+        "product":"Lidocaine 10mg\/ml & 20mg\/ml Injection"
+    },
+    {
+        "sno":45,
+        "product":"L-Ornithine L-Aspartate 5G\/10ml Injection"
+    },
+    {
+        "sno":46,
+        "product":"Medroxyprogesterone 150mg\/ml 1ml Injection"
+    },
+    {
+        "sno":47,
+        "product":"Meropenem 500mg & 1000mg Injection"
+    },
+    {
+        "sno":48,
+        "product":"Metamizole (Dipyrone) 500mg\/ml 2ml Injection"
+    },
+    {
+        "sno":49,
+        "product":"Methylcobalamine 500mcg\/1ml Injection"
+    },
+    {
+        "sno":50,
+        "product":"Methylprednisolone Sodium Succinate 40mg & 500mg Injection"
+    },
+    {
+        "sno":51,
+        "product":"Methylprednisolone Acetate 40mg\/ml 2ml Injection"
+    },
+    {
+        "sno":52,
+        "product":"Midazolam 1mg\/ml 5ml & 5mg\/ml 5ml & 10ml Injection"
+    },
+    {
+        "sno":53,
+        "product":"Nandrolone Decanoate 25mg\/ml & 50mg\/ml Injection"
+    },
+    {
+        "sno":54,
+        "product":"Nitroglycerine 5mg\/ml 5ml & 10ml Injection"
+    },
+    {
+        "sno":55,
+        "product":"Norepinephrine 1mg\/ml 4ml Injection"
+    },
+    {
+        "sno":56,
+        "product":"Octreotide 50mg & 100mg Injection"
+    },
+    {
+        "sno":57,
+        "product":"Omeprazole 40mg Injection"
+    },
+    {
+        "sno":58,
+        "product":"Ondansetron 2mg\/ml 2ml & 4ml Injection"
+    },
+    {
+        "sno":59,
+        "product":"Pamidronate Disodium 90mg Injection"
+    },
+    {
+        "sno":60,
+        "product":"Pantoprazole 40mg Injection"
+    },
+    {
+        "sno":61,
+        "product":"Paracetamol 150mg\/ml 2ml Injection"
+    },
+    {
+        "sno":62,
+        "product":"Phenylephrine Hydrochloride 10mg\/1ml Injection"
+    },
+    {
+        "sno":63,
+        "product":"Phenytoin 100mg\/ml 5ml Injection"
+    },
+    {
+        "sno":64,
+        "product":"Piperacillin Tazobactam 4.5G Injection"
+    },
+    {
+        "sno":65,
+        "product":"Polymyxin B 0.5MIU Injection"
+    },
+    {
+        "sno":66,
+        "product":"Propofol 10mg\/ml 10ml, 20ml & 50ml Injection"
+    },
+    {
+        "sno":67,
+        "product":"Rabeprazole 20mg Injection"
+    },
+    {
+        "sno":68,
+        "product":"Ranitidine 25mg\/ml 2ml Injection"
+    },
+    {
+        "sno":69,
+        "product":"Rocuronium 10mg\/ml 5ml & 10ml Injection"
+    },
+    {
+        "sno":70,
+        "product":"Sodium Hyaluronate 0.8%, 1%, 1.5% & 2%\u00a0 2ml, 3ml, 4ml & 6ml PFS Injection"
+    },
+    {
+        "sno":71,
+        "product":"Sodium Hyaluronate 1%, 1.2%, 1.4%, 1.6% & 1.8% 1ml PFS Injection"
+    },
+    {
+        "sno":72,
+        "product":"Teicoplanin 200mg & 400mg Injection"
+    },
+    {
+        "sno":73,
+        "product":"Tigecycline 50mg Injection"
+    },
+    {
+        "sno":74,
+        "product":"Tramadol 50mg\/ml 1ml & 2ml Injection"
+    },
+    {
+        "sno":75,
+        "product":"Tranexamic Acid 100mg\/ml 5ml Injection"
+    },
+    {
+        "sno":76,
+        "product":"Vancomycin 500mg & 1000mg Injection"
+    },
+    {
+        "sno":77,
+        "product":"Vecuronium 4mg & 10mg Injection"
+    },
+    {
+        "sno":78,
+        "product":"Vitamin B Complex Injection"
+    },
+    {
+        "sno":79,
+        "product":"Voriconazole 200mg Injection"
+    },
+    {
+        "sno":80,
+        "product":"Zoledronic Acid 4mg Injection"
+    },
+    {
+        "sno":81,
+        "product":"Zuclopenthixol Decanoate 200mg\/ml Injection"
+    },
+    {
+        "sno":82,
+        "product":"Aminoacid 10% 500ml Infusion"
+    },
+    {
+        "sno":83,
+        "product":"Paracetamol 10mg\/ml 100ml Infusion"
+    },
+    {
+        "sno":84,
+        "product":"Ciprofloxacin 2mg\/ml 100ml Infusion"
+    },
+    {
+        "sno":85,
+        "product":"Metronidazole 5mg\/ml 100ml Infusion"
+    },
+    {
+        "sno":86,
+        "product":"Fluconazole 2mg\/ml 100ml Infusion"
+    },
+    {
+        "sno":87,
+        "product":"Levofloxacin 5mg\/ml 100ml Infusion"
+    },
+    {
+        "sno":88,
+        "product":"Linezolid 2mg\/ml 300ml Infusion"
+    },
+    {
+        "sno":89,
+        "product":"Moxifloxacin 1.6mg\/ml 250ml Infusion"
+    },
+    {
+        "sno":90,
+        "product":"Ofloxacin 2mg\/ml 100ml Infusion"
+    },
+    {
+        "sno":91,
+        "product":"Normal Saline 0.9% 100ml, 250ml, 500ml & 1000ml Infusion"
+    },
+    {
+        "sno":92,
+        "product":"Ringer Lactate 100ml, 250ml, 500ml & 1000ml Infusion"
+    },
+    {
+        "sno":93,
+        "product":"Dextrose 5% & 10% 100ml, 250ml, 500ml & 1000ml Infusion"
+    },
+    {
+        "sno":94,
+        "product":"Dextrose + Normal Saline 100ml, 250ml, 500ml & 1000ml Infusion"
+    },
+    {
+        "sno":95,
+        "product":"Water for Injection 2ml, 5ml & 10ml Plastic Ampoule"
+    },
+    {
+        "sno":96,
+        "product":"Lidocaine (Preservative Free) 20mg\/ml 10ml & 20ml Injection"
+    }
+]

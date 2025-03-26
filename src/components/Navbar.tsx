@@ -5,17 +5,26 @@ import Link from "next/link";
 import Image from "next/image";
 import {Menu, X, Plus, Minus} from "lucide-react";
 
+// const navItems = [
+//   {label: "Home", href: "/"},
+//   {label: "About Us", href: "/about-novitrail"},
+//   {
+//     label: "Portfolio",
+//     href: "/portfolio",
+//     submenu: [
+//       {label: "Novitrail Products", href: "/portfolio/novitrail-products"},
+//       {label: "Pharmaceutical", href: "/portfolio/pharmaceuticals"},
+//       {label: "Surgical", href: "/portfolio/surgicals"},
+//     ],
+//   },
+// ];
+
 const navItems = [
   {label: "Home", href: "/"},
   {label: "About Us", href: "/about-novitrail"},
   {
-    label: "Portfolio",
-    href: "/portfolio",
-    submenu: [
-      {label: "Novitrail Products", href: "/portfolio/novitrail-products"},
-      {label: "Pharmaceutical", href: "/portfolio/pharmaceuticals"},
-      {label: "Surgical", href: "/portfolio/surgicals"},
-    ],
+    label: "Products",
+    href: "/novitrail-products"
   },
 ];
 

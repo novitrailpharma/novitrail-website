@@ -1,0 +1,186 @@
+[
+    {
+        "sno":1,
+        "product":"Acyclovir Eye Ointment 5g"
+    },
+    {
+        "sno":2,
+        "product":"Azithromycin Eye Drop 1% 5ml"
+    },
+    {
+        "sno":3,
+        "product":"Azithromycin Eye Ointment 5g"
+    },
+    {
+        "sno":4,
+        "product":"Betamethasone + Neomycin Eye Drop 10ml"
+    },
+    {
+        "sno":5,
+        "product":"Betamethasone Eye Drop 10ml"
+    },
+    {
+        "sno":6,
+        "product":"Bimatoprost Eye Drop 3ml & 4ml"
+    },
+    {
+        "sno":7,
+        "product":"Bimatoprost + Timolol Eye Drop 5ml"
+    },
+    {
+        "sno":8,
+        "product":"Brimonidine Tartrate Eye Drop 0.15% & 2% 5ml\u00a0"
+    },
+    {
+        "sno":9,
+        "product":"Brimonidine Tartrate + Timolol Eye Drop 5ml"
+    },
+    {
+        "sno":10,
+        "product":"Carmellose Sodium Eye Drop 0.5% & 1% 10ml"
+    },
+    {
+        "sno":11,
+        "product":"Chloramphenicol Eye Drop 10ml"
+    },
+    {
+        "sno":12,
+        "product":"Chloramphenicol Ophthalmic Ointment 1% 3.5g & 5g"
+    },
+    {
+        "sno":13,
+        "product":"Chloramphenicol + Polymyxin B + Dexamethason Eye Ointment 5g"
+    },
+    {
+        "sno":14,
+        "product":"Chlormaphenicol + Hydrocortisone Eye Ointment 3g & 10g"
+    },
+    {
+        "sno":15,
+        "product":"Ciprofloxacin Eye Drop 10ml"
+    },
+    {
+        "sno":16,
+        "product":"Cromolyn Sodium Eye Drop 5ml"
+    },
+    {
+        "sno":17,
+        "product":"Dexamethasone + Chloramphenicol Eye Drop 10ml"
+    },
+    {
+        "sno":18,
+        "product":"Dorzolamide + Timolol Eye Drop 5ml"
+    },
+    {
+        "sno":19,
+        "product":"Dorzolamide Eye Drop 5ml"
+    },
+    {
+        "sno":20,
+        "product":"Fluorometholone Eye Drop 0.1% 5ml"
+    },
+    {
+        "sno":21,
+        "product":"Gentamycin Eye Drops 5ml"
+    },
+    {
+        "sno":22,
+        "product":"Hypromellose Eye Drop 0.3% 10ml"
+    },
+    {
+        "sno":23,
+        "product":"Ketorolac Eye Drop 5ml"
+    },
+    {
+        "sno":24,
+        "product":"Latanoprost Eye Drop 0.005% 2.5ml"
+    },
+    {
+        "sno":25,
+        "product":"Moxifloxacin + Dexamethasone Eye Drop 5ml"
+    },
+    {
+        "sno":26,
+        "product":"Moxifloxacin Eye Drop 5ml"
+    },
+    {
+        "sno":27,
+        "product":"Naphazolin Eye Drop 15ml"
+    },
+    {
+        "sno":28,
+        "product":"Neomycin + Dexamethasone Eye Drop 10ml"
+    },
+    {
+        "sno":29,
+        "product":"Napafenac Eye Drop 5ml"
+    },
+    {
+        "sno":30,
+        "product":"Ofloxacin + Dexamethasone Eye Drop 10ml"
+    },
+    {
+        "sno":31,
+        "product":"Olopatadine Eye Drop 5ml"
+    },
+    {
+        "sno":32,
+        "product":"Polymyxin B + Bacitracin zinc + Neomycin Ophthalmic Ointment 5g"
+    },
+    {
+        "sno":33,
+        "product":"Prednisolone Eye Drop 5ml"
+    },
+    {
+        "sno":34,
+        "product":"Proparacaine Eye Drop 0.5% 5ml"
+    },
+    {
+        "sno":35,
+        "product":"Sodium Carboxy Methyl Cellulose + Dextrose Eye Drop 10ml"
+    },
+    {
+        "sno":36,
+        "product":"Sodium Hyaluronate Eye Drop 10ml"
+    },
+    {
+        "sno":37,
+        "product":"Tetracycline Ophthalmic Ointment 5g"
+    },
+    {
+        "sno":38,
+        "product":"Timolol Eye Drop 5ml"
+    },
+    {
+        "sno":39,
+        "product":"Tobramycin + Dexamethasone Ophthalmic Ointment 5g"
+    },
+    {
+        "sno":40,
+        "product":"Tobramycin + Dexamethasone Eye Drop 5ml"
+    },
+    {
+        "sno":41,
+        "product":"Tobramycin Ophthalmic Ointment 5g"
+    },
+    {
+        "sno":42,
+        "product":"Tobramycin Eye Drop 5ml"
+    },
+    {
+        "sno":43,
+        "product":"Tobramycin + Fluorometholone Eye Drop 5ml"
+    },
+    {
+        "sno":44,
+        "product":"Travoprost + Timolol Eye Drop 2.5ml"
+    },
+    {
+        "sno":45,
+        "product":"Travoprost Eye Drop 2.5ml"
+    },
+    {
+        "sno":46,
+        "product":"Tropicamide Eye Drop 5ml & 10ml"
+    }
+]
