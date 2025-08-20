@@ -76,18 +76,22 @@ interface ExpandableCardProps {
 
 const ExpandableCard: React.FC<ExpandableCardProps> = ({ paragraph, borderColor }) => {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
-  const [isSmallScreen, setIsSmallScreen] = useState<boolean>(window.innerWidth < 1024);
+  const [isSmallScreen, setIsSmallScreen] = useState<boolean>(false);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth < 1024);
-      if (window.innerWidth >= 1024) {
-        setIsExpanded(true); // Automatically show full text on larger screens
+      if (typeof window !== 'undefined') {
+        setIsSmallScreen(window.innerWidth < 1024);
+        if (window.innerWidth >= 1024) {
+          setIsExpanded(true); // Automatically show full text on larger screens
+        }
       }
     };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    handleResize();
+    if (typeof window !== 'undefined') {
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }
   }, []);
 
   const toggleExpand = () => setIsExpanded((prev) => !prev);

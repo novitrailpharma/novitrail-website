@@ -7,18 +7,44 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Brand Colors */
+  --novitrail-blue: #004583;
+  --novitrail-orange: #E45D1C;
+  --novitrail-blue-light: #1E5BA8;
+  --novitrail-blue-dark: #003366;
+  --novitrail-orange-light: #FF7B47;
+  --novitrail-orange-dark: #CC4A15;
+
+  /* Animation Variables */
+  --animation-duration: 0.3s;
+  --animation-ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: "Tomorrow", Arial, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .font-tomorrow {
   font-family: "Tomorrow", Arial, sans-serif;
 }
 
+/* Enhanced Animations */
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -44,7 +70,7 @@ body {
 }
 
 .animate-slide-left {
-  animation: slideLeft 0.3s ease-out forwards;
+  animation: slideLeft var(--animation-duration) var(--animation-ease) forwards;
 }
 
 @keyframes slideRight {
@@ -59,5 +85,177 @@ body {
 }
 
 .animate-slide-right {
-  animation: slideRight 0.3s ease-out forwards;
+  animation: slideRight var(--animation-duration) var(--animation-ease) forwards;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px var(--novitrail-blue), 0 0 10px var(--novitrail-blue), 0 0 15px var(--novitrail-blue);
+  }
+  50% {
+    box-shadow: 0 0 10px var(--novitrail-orange), 0 0 20px var(--novitrail-orange), 0 0 30px var(--novitrail-orange);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--novitrail-blue), var(--novitrail-orange));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--novitrail-orange), var(--novitrail-blue));
+}
+
+/* Utility Classes */
+.text-gradient {
+  background: linear-gradient(135deg, var(--novitrail-blue), var(--novitrail-orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-brand {
+  background: linear-gradient(135deg, var(--novitrail-blue), var(--novitrail-orange));
+}
+
+.bg-gradient-brand-reverse {
+  background: linear-gradient(135deg, var(--novitrail-orange), var(--novitrail-blue));
+}
+
+.shadow-brand {
+  box-shadow: 0 10px 40px rgba(0, 69, 131, 0.2);
+}
+
+.shadow-brand-orange {
+  box-shadow: 0 10px 40px rgba(228, 93, 28, 0.2);
+}
+
+.border-gradient {
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box, 
+              linear-gradient(135deg, var(--novitrail-blue), var(--novitrail-orange)) border-box;
+}
+
+/* Enhanced Button Styles */
+.btn-primary {
+  @apply bg-gradient-to-r from-novitrail-blue to-novitrail-blue-light hover:from-novitrail-orange hover:to-novitrail-orange-light text-white font-semibold py-3 px-6 rounded-lg transition-all duration-500 shadow-lg hover:shadow-xl transform hover:scale-105;
+}
+
+.btn-secondary {
+  @apply bg-gradient-to-r from-novitrail-orange to-novitrail-orange-light hover:from-novitrail-blue hover:to-novitrail-blue-light text-white font-semibold py-3 px-6 rounded-lg transition-all duration-500 shadow-lg hover:shadow-xl transform hover:scale-105;
+}
+
+.btn-outline {
+  @apply border-2 border-novitrail-blue text-novitrail-blue hover:bg-novitrail-blue hover:text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:shadow-lg;
+}
+
+/* Card Styles */
+.card-hover {
+  @apply transition-all duration-500 hover:shadow-2xl hover:-translate-y-2;
+}
+
+.card-glow {
+  @apply relative overflow-hidden;
+}
+
+.card-glow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.card-glow:hover::before {
+  left: 100%;
+}
+
+/* Loading Animations */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+  background-size: 1000px 104px;
+}
+
+/* Focus States */
+.focus-brand {
+  @apply focus:outline-none focus:ring-4 focus:ring-novitrail-blue/20 focus:border-novitrail-blue;
+}
+
+/* Perspective for 3D effects */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-gpu {
+  transform: translateZ(0);
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

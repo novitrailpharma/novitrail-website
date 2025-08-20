@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer/Footer";
-import TopBar from "@/components/Topbar";
+// import TopBar from "@/components/Topbar";
 
 export const metadata: Metadata = {
   title: "Novitrail Pharmaceuticals",
@@ -19,7 +19,7 @@ export default function RootLayout({
       <body
         className="font-tomorrow flex flex-col min-h-screen"
       >
-      <TopBar />
+      {/* <TopBar /> */}
       <Navbar />
       <main className="flex-grow">
         {children}

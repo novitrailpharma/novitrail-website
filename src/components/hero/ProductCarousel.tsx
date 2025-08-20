@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 
-const products = Array.from({length: 5}, (_, i) => `/novi_products/${i + 1}.png`);
+// Use all 8 product images located in public/novi_products/1.png ... 8.png
+const products = Array.from({length: 8}, (_, i) => `/novi_products/${i + 1}.png`);
 
 
 import React, {useEffect, useState} from 'react';
@@ -47,7 +48,7 @@ const ProductCarousel = () => {
   };
 
   return (
-    <div className="relative h-full group">
+  <div className="relative h-full group select-none">
       <div
         className="h-full"
         onTouchStart={handleTouchStart}
@@ -61,10 +62,11 @@ const ProductCarousel = () => {
           >
             <Image
               src={product}
-              alt={"product.name"}
+              alt={`Product image ${index + 1}`}
               className="w-full h-full object-contain"
               width={800}
               height={800}
+              priority={index === currentIndex}
             />
           </div>
         ))}
