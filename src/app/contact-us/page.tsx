@@ -119,31 +119,142 @@ const ContactUs = () => {
   ];
 
   const contactInfo = [
-    { icon: Phone, title: 'Phone', info: '+91 XXX XXX XXXX', color: 'from-blue-500 to-blue-600' },
-    { icon: Mail, title: 'Email', info: 'contact@novitrail.com', color: 'from-green-500 to-green-600' },
-    { icon: MapPin, title: 'Address', info: 'Pharmaceutical Hub, India', color: 'from-purple-500 to-purple-600' },
-    { icon: Clock, title: 'Business Hours', info: '9 AM - 6 PM IST', color: 'from-orange-500 to-orange-600' }
+    { icon: Phone, title: 'Phone', info: '+91 99901 15992', color: 'from-blue-500 to-blue-600' },
+    { icon: Mail, title: 'Email', info: 'info@novitrail.com', color: 'from-green-500 to-green-600' },
+    { icon: MapPin, title: 'Address', info: 'SN.123, Vardhman Crown Mall, Plot No.2, Sector-19, Dwarka, New Delhi -110075', color: 'from-purple-500 to-purple-600' },
+    { icon: Clock, title: 'Business Hours', info: '9 AM - 8 PM IST', color: 'from-orange-500 to-orange-600' }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-orange-50 relative overflow-hidden">
-      {/* Animated Background Elements */}
+    <div className="min-h-screen relative overflow-hidden">
+      {/* COLORFUL Multi-Layer Background */}
+      <div className="absolute inset-0">
+        {/* Strong base gradient */}
+        <div className="absolute inset-0 bg-gradient-to-br from-novitrail-blue/35 via-blue-100/50 to-novitrail-orange/40" />
+
+        {/* Additional color overlay */}
+        <div className="absolute inset-0 bg-gradient-to-tr from-blue-200/40 via-purple-100/30 to-orange-200/45" />
+
+        {/* Top section with strong blue for navbar contrast */}
+        <div className="absolute inset-x-0 top-0 h-[500px] bg-gradient-to-b from-novitrail-blue/25 via-blue-100/20 to-transparent" />
+
+        {/* Middle colorful section - BENEATH "Get In Touch" */}
+        <div className="absolute inset-x-0 top-[200px] h-[600px] bg-gradient-to-br from-blue-300/25 via-purple-200/30 to-orange-300/35" />
+
+        {/* Bottom section with strong orange */}
+        <div className="absolute inset-x-0 bottom-0 h-[400px] bg-gradient-to-t from-novitrail-orange/20 via-orange-100/15 to-transparent" />
+
+        {/* Extra colorful accent bands */}
+        <div className="absolute inset-x-0 top-1/3 h-64 bg-gradient-to-r from-blue-200/20 via-purple-200/25 to-orange-200/20 transform -skew-y-1" />
+        <div className="absolute inset-x-0 bottom-1/3 h-48 bg-gradient-to-r from-orange-200/25 via-pink-200/20 to-blue-200/25 transform skew-y-1" />
+      </div>
+
+      {/* ENHANCED Animated Background Elements with MORE COLOR */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Large vibrant floating elements */}
         <motion.div
           animate={{
-            x: [-100, 1200],
-            y: [100, -100]
+            x: [-300, 1400],
+            y: [150, -150],
+            rotate: [0, 360]
           }}
           transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-          className="absolute w-64 h-64 bg-gradient-to-r from-novitrail-blue/10 to-novitrail-orange/10 rounded-full blur-3xl"
+          className="absolute w-[500px] h-[500px] bg-gradient-to-r from-novitrail-blue/25 to-novitrail-orange/25 rounded-full blur-2xl"
         />
+
         <motion.div
           animate={{
-            x: [1200, -100],
-            y: [-100, 800]
+            x: [1400, -300],
+            y: [-100, 900],
+            rotate: [360, 0]
           }}
           transition={{ duration: 25, repeat: Infinity, ease: 'linear', delay: 5 }}
-          className="absolute w-96 h-96 bg-gradient-to-r from-novitrail-orange/10 to-novitrail-blue/10 rounded-full blur-3xl"
+          className="absolute w-[600px] h-[600px] bg-gradient-to-r from-orange-300/20 to-blue-300/20 rounded-full blur-2xl"
+        />
+
+        {/* Medium colorful elements */}
+        <motion.div
+          animate={{
+            x: [800, -200],
+            y: [250, 650],
+            scale: [1, 1.3, 1]
+          }}
+          transition={{ duration: 18, repeat: Infinity, ease: 'linear', delay: 8 }}
+          className="absolute w-80 h-80 bg-gradient-to-r from-purple-300/25 to-pink-300/25 rounded-full blur-xl"
+        />
+
+        {/* Small vibrant accent elements */}
+        <motion.div
+          animate={{
+            x: [0, 1300, 0],
+            y: [400, 200, 400],
+            rotate: [0, 180, 360]
+          }}
+          transition={{ duration: 30, repeat: Infinity, ease: 'linear', delay: 12 }}
+          className="absolute w-64 h-64 bg-gradient-to-r from-cyan-300/20 to-yellow-300/20 rounded-full blur-lg"
+        />
+
+        {/* TOP AREA - More colorful elements for navbar contrast */}
+        <motion.div
+          animate={{
+            scale: [1, 1.2, 1],
+            opacity: [0.4, 0.7, 0.4],
+            rotate: [0, 90, 180, 270, 360]
+          }}
+          transition={{ duration: 12, repeat: Infinity, ease: 'easeInOut' }}
+          className="absolute top-10 left-1/3 w-[400px] h-[400px] bg-gradient-to-br from-novitrail-blue/30 to-purple-300/25 rounded-full blur-2xl"
+        />
+
+        <motion.div
+          animate={{
+            scale: [1.2, 1, 1.2],
+            opacity: [0.5, 0.8, 0.5],
+            rotate: [360, 270, 180, 90, 0]
+          }}
+          transition={{ duration: 15, repeat: Infinity, ease: 'easeInOut', delay: 3 }}
+          className="absolute top-20 right-1/3 w-[350px] h-[350px] bg-gradient-to-bl from-novitrail-orange/35 to-pink-300/20 rounded-full blur-2xl"
+        />
+
+        {/* BENEATH "Get In Touch" - Extra colorful elements */}
+        <motion.div
+          animate={{
+            x: [100, 900, 100],
+            y: [300, 500, 300],
+            scale: [1, 1.4, 1],
+            rotate: [0, 180, 360]
+          }}
+          transition={{ duration: 22, repeat: Infinity, ease: 'easeInOut', delay: 6 }}
+          className="absolute w-96 h-96 bg-gradient-to-r from-blue-400/20 to-purple-400/20 rounded-full blur-xl"
+        />
+
+        <motion.div
+          animate={{
+            x: [1000, 200, 1000],
+            y: [350, 550, 350],
+            scale: [1.1, 1, 1.1],
+            rotate: [180, 360, 540]
+          }}
+          transition={{ duration: 28, repeat: Infinity, ease: 'easeInOut', delay: 10 }}
+          className="absolute w-80 h-80 bg-gradient-to-l from-orange-400/25 to-red-400/20 rounded-full blur-lg"
+        />
+
+        {/* Additional colorful accents */}
+        <motion.div
+          animate={{
+            scale: [0.8, 1.5, 0.8],
+            opacity: [0.3, 0.6, 0.3]
+          }}
+          transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut', delay: 4 }}
+          className="absolute top-1/2 left-1/4 w-72 h-72 bg-gradient-to-tr from-teal-300/20 to-cyan-300/20 rounded-full blur-xl"
+        />
+
+        <motion.div
+          animate={{
+            scale: [1.3, 0.9, 1.3],
+            opacity: [0.4, 0.7, 0.4]
+          }}
+          transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut', delay: 7 }}
+          className="absolute top-2/3 right-1/4 w-64 h-64 bg-gradient-to-bl from-indigo-300/25 to-violet-300/20 rounded-full blur-lg"
         />
       </div>
 
@@ -154,34 +265,42 @@ const ContactUs = () => {
           animate="visible"
           className="max-w-7xl w-full"
         >
-          {/* Header Section */}
-          <motion.div variants={itemVariants} className="text-center mb-16">
+          {/* Header Section with enhanced colors (added desktop m-10 p-10) */}
+          <motion.div variants={itemVariants} className="text-center mb-16 lg:m-10 lg:p-10">
             <motion.div
               animate={{ rotate: [0, 360] }}
               transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
               className="inline-block mb-6"
             >
-              <div className="w-16 h-16 bg-gradient-to-r from-novitrail-blue to-novitrail-orange rounded-2xl flex items-center justify-center mx-auto shadow-xl">
+              <div className="w-16 h-16 bg-gradient-to-r from-novitrail-blue to-novitrail-orange rounded-2xl flex items-center justify-center mx-auto shadow-2xl ring-4 ring-white/20">
                 <Send className="w-8 h-8 text-white" />
               </div>
             </motion.div>
 
-            <h1 className="text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-novitrail-blue to-novitrail-orange mb-6 font-tomorrow">
+            <h1 className="text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-novitrail-blue to-novitrail-orange mb-6 font-tomorrow drop-shadow-lg">
               Get In Touch
             </h1>
-            <div className="w-32 h-1 bg-gradient-to-r from-novitrail-blue to-novitrail-orange mx-auto mb-6 rounded-full" />
-            <p className="text-xl text-gray-700 max-w-2xl mx-auto leading-relaxed">
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: '8rem' }}
+              transition={{ duration: 1, delay: 0.5 }}
+              className="h-2 bg-gradient-to-r from-novitrail-blue via-purple-500 to-novitrail-orange mx-auto mb-6 rounded-full shadow-lg"
+            />
+            <p className="text-xl text-gray-800 max-w-2xl mx-auto leading-relaxed font-medium">
               Ready to elevate your pharmaceutical operations? We&apos;re here to help you succeed with innovative solutions and expert support.
             </p>
           </motion.div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-start">
-            {/* Contact Form */}
+            {/* Contact Form with more transparency to show colors */}
             <motion.div variants={itemVariants}>
-              <div className="bg-white/80 backdrop-blur-xl rounded-3xl shadow-2xl p-8 lg:p-12 border border-white/20 relative overflow-hidden">
-                {/* Simple background pattern */}
-                <div className="absolute inset-0 opacity-5">
-                  <div className="absolute inset-0 bg-gradient-to-br from-novitrail-blue/5 to-novitrail-orange/5" />
+              <div className="bg-white/70 backdrop-blur-xl rounded-3xl shadow-2xl p-8 lg:p-12 border border-white/40 relative overflow-hidden">
+                {/* Colorful background pattern */}
+                <div className="absolute inset-0 opacity-10">
+                  <div className="absolute inset-0 bg-gradient-to-br from-novitrail-blue/20 to-novitrail-orange/20" />
+                  <div className="absolute top-0 right-0 w-40 h-40 bg-purple-400/10 rounded-full blur-2xl" />
+                  <div className="absolute bottom-0 left-0 w-32 h-32 bg-orange-400/10 rounded-full blur-xl" />
+                  <div className="absolute center w-24 h-24 bg-blue-400/10 rounded-full blur-lg" />
                 </div>
 
                 <div className="relative z-10">
@@ -194,7 +313,7 @@ const ContactUs = () => {
                     <h2 className="text-3xl font-bold text-novitrail-blue mb-4 font-tomorrow">
                       Send us a Message
                     </h2>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Fill out the form below and we&apos;ll get back to you within 24 hours.
                     </p>
                   </motion.div>
@@ -346,7 +465,7 @@ const ContactUs = () => {
                         disabled={isSubmitting}
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
-                        className={`w-full relative overflow-hidden bg-gradient-to-r from-novitrail-blue to-novitrail-blue/90 hover:from-novitrail-orange hover:to-novitrail-orange/90 text-white font-bold py-4 px-8 rounded-xl transition-all duration-500 shadow-lg hover:shadow-2xl ${
+                        className={`w-full relative overflow-hidden bg-gradient-to-r from-novitrail-blue to-novitrail-blue/90 hover:from-novitrail-orange hover:to-novitrail-orange/90 text-white font-bold py-4 px-8 rounded-xl transition-all duration-500 shadow-xl hover:shadow-2xl ${
                           isSubmitting ? 'cursor-not-allowed opacity-70' : ''
                         }`}
                       >
@@ -415,7 +534,7 @@ const ContactUs = () => {
                         )}
                         <div>
                           {status === 'success' 
-                            ? "Message sent successfully! We\u0027ll get back to you within 24 hours."
+                            ? "Message sent successfully! We'll get back to you within 24 hours."
                             : 'Failed to send message. Please try again or contact us directly.'
                           }
                         </div>
@@ -426,7 +545,7 @@ const ContactUs = () => {
               </div>
             </motion.div>
 
-            {/* Contact Information */}
+            {/* Contact Information with reduced transparency */}
             <motion.div variants={itemVariants} className="space-y-8">
               {/* Contact Cards */}
               <div className="grid sm:grid-cols-2 gap-6">
@@ -437,13 +556,13 @@ const ContactUs = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 + index * 0.1 }}
                     whileHover={{ y: -5, scale: 1.02 }}
-                    className="bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-white/20 group hover:shadow-2xl transition-all duration-300"
+                    className="bg-white/75 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-white/40 group hover:shadow-2xl transition-all duration-300"
                   >
-                    <div className={`w-12 h-12 bg-gradient-to-r ${contact.color} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    <div className={`w-12 h-12 bg-gradient-to-r ${contact.color} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
                       <contact.icon className="w-6 h-6 text-white" />
                     </div>
                     <h3 className="font-bold text-gray-900 mb-2">{contact.title}</h3>
-                    <p className="text-gray-600">{contact.info}</p>
+                    <p className="text-gray-700">{contact.info}</p>
                   </motion.div>
                 ))}
               </div>
@@ -453,7 +572,7 @@ const ContactUs = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.9 }}
-                className="bg-gradient-to-br from-novitrail-blue to-novitrail-blue/90 rounded-3xl p-8 text-white relative overflow-hidden"
+                className="bg-gradient-to-br from-novitrail-blue to-novitrail-blue/90 rounded-3xl p-8 text-white relative overflow-hidden shadow-2xl"
               >
                 {/* Background decoration */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl" />
@@ -502,7 +621,7 @@ const ContactUs = () => {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 1.2 }}
-                className="bg-white/80 backdrop-blur-xl rounded-2xl p-8 shadow-xl border border-white/20 text-center"
+                className="bg-white/75 backdrop-blur-xl rounded-2xl p-8 shadow-xl border border-white/40 text-center"
               >
                 <motion.div
                   animate={{ rotate: [0, 5, -5, 0] }}
@@ -511,10 +630,10 @@ const ContactUs = () => {
                 >
                   &quot;
                 </motion.div>
-                <p className="text-gray-700 italic text-lg leading-relaxed mb-4">
+                <p className="text-gray-800 italic text-lg leading-relaxed mb-4 font-medium">
                   Empowering your journey with innovation, trust, and reliability in pharmaceutical excellence.
                 </p>
-                <div className="text-sm text-gray-500 font-semibold">
+                <div className="text-sm text-gray-600 font-semibold">
                   — Novitrail Pharmaceuticals Team
                 </div>
               </motion.div>
