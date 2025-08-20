@@ -35,6 +35,19 @@ const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const timeoutId = useRef<NodeJS.Timeout | null>(null);
+  // Mount flag to ensure client-only decorative effects (that use window / random) render
+  // only after the initial client render matches the server HTML (prevents hydration mismatch).
+  const [mounted, setMounted] = useState(false);
+  const [windowSize, setWindowSize] = useState({ width: 1200, height: 800 });
+  // Stable particle specs stored in a ref so they are generated only once after mount.
+  const particlesRef = useRef<{
+    size: number;
+    startY: number;
+    endY: number;
+    duration: number;
+    delay: number;
+    color: 'orange' | 'blue';
+  }[]>([]);
 
   // Handle scroll effect
   useEffect(() => {
@@ -60,6 +73,39 @@ const Navbar: React.FC = () => {
       return () => window.removeEventListener('mousemove', handleMouseMove);
     }
   }, []);
+
+  // Mark mounted so first client render matches server (no particles yet)
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Track window size (only after mount to avoid SSR diff)
+  useEffect(() => {
+    if (!mounted) return;
+    const updateSize = () => {
+      if (typeof window !== 'undefined') {
+        setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+      }
+    };
+    updateSize();
+    window.addEventListener('resize', updateSize);
+    return () => window.removeEventListener('resize', updateSize);
+  }, [mounted]);
+
+  // Generate particle specs once after mount
+  useEffect(() => {
+    if (mounted && particlesRef.current.length === 0) {
+      const count = 6;
+      particlesRef.current = Array.from({ length: count }, (_, i) => ({
+        size: 2 + Math.random() * 2, // px size
+        startY: Math.random(), // normalized 0..1
+        endY: Math.random(),
+        duration: 8 + Math.random() * 4,
+        delay: i * 1.5,
+        color: i % 2 === 0 ? 'orange' : 'blue'
+      }));
+    }
+  }, [mounted]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -157,7 +203,7 @@ const Navbar: React.FC = () => {
           background: isScrolled 
             ? 'rgba(255, 255, 255, 0.95)' 
             : 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)'
-        }}
+        } as React.CSSProperties}
       >
         {/* Animated background gradient */}
         <div 
@@ -166,7 +212,7 @@ const Navbar: React.FC = () => {
             background: !isScrolled 
               ? `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(228,93,28,0.15) 0%, transparent 50%)`
               : 'none'
-          }}
+          } as React.CSSProperties}
         />
 
         <div className="container mx-auto px-6 lg:px-8 relative z-10">
@@ -247,19 +293,8 @@ const Navbar: React.FC = () => {
                     >
                       {/* Enhanced animated background on hover */}
                       <motion.div
-                        className="absolute inset-0 bg-gradient-to-r from-novitrail-orange via-novitrail-blue to-novitrail-orange opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl"
+                        className="absolute inset-0 bg-gradient-to-r from-novitrail-orange via-novitrail-blue to-novitrail-orange opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl animate-gradient-pan-slow"
                         whileHover={{ scale: 1.05 }}
-                        animate={{
-                          backgroundPosition: ['0% 50%', '100% 50%', '0% 50%']
-                        }}
-                        transition={{
-                          duration: 3,
-                          repeat: Infinity,
-                          ease: "linear"
-                        }}
-                        style={{
-                          backgroundSize: '200% 100%'
-                        }}
                       />
 
                       {/* Enhanced glowing effect */}
@@ -360,19 +395,10 @@ const Navbar: React.FC = () => {
 
                     {/* Animated gradient background layer 1 */}
                     <motion.div
-                      className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                      className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-gradient-pan-fast"
                       style={{
-                        background: 'linear-gradient(45deg, #004583, #E45D1C, #004583, #E45D1C)',
-                        backgroundSize: '400% 400%'
-                      }}
-                      animate={{
-                        backgroundPosition: ['0% 50%', '100% 50%', '0% 50%']
-                      }}
-                      transition={{
-                        duration: 2,
-                        repeat: Infinity,
-                        ease: "linear"
-                      }}
+                        background: 'linear-gradient(45deg, #004583, #E45D1C, #004583, #E45D1C)'
+                      } as React.CSSProperties}
                     />
 
                     {/* Shimmer effect overlay */}
@@ -388,24 +414,12 @@ const Navbar: React.FC = () => {
                       }}
                       style={{
                         background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent)'
-                      }}
+                      } as React.CSSProperties}
                     />
 
                     {/* Pulsing glow effect */}
                     <motion.div
-                      className="absolute -inset-1 rounded-2xl opacity-0 group-hover:opacity-60 blur-lg"
-                      animate={{
-                        background: [
-                          'linear-gradient(45deg, rgba(0,69,131,0.4), rgba(228,93,28,0.4))',
-                          'linear-gradient(45deg, rgba(228,93,28,0.4), rgba(0,69,131,0.4))',
-                          'linear-gradient(45deg, rgba(0,69,131,0.4), rgba(228,93,28,0.4))'
-                        ]
-                      }}
-                      transition={{
-                        duration: 2,
-                        repeat: Infinity,
-                        ease: "easeInOut"
-                      }}
+                      className="absolute -inset-1 rounded-2xl opacity-0 group-hover:opacity-60 blur-lg animate-glow-shift"
                     />
 
                     {/* Button content */}
@@ -451,7 +465,7 @@ const Navbar: React.FC = () => {
                         style={{
                           left: `${20 + i * 20}%`,
                           top: `${10 + i * 10}%`
-                        }}
+                        } as React.CSSProperties}
                         animate={{
                           y: [-5, -15, -5],
                           x: [-2, 2, -2],
@@ -635,18 +649,7 @@ const Navbar: React.FC = () => {
                         <div className="bg-gradient-to-r from-novitrail-orange to-novitrail-blue text-white text-center px-8 py-4 rounded-2xl font-bold transition-all duration-500 shadow-lg hover:shadow-2xl hover:scale-105">
                           {/* Mobile button animated background */}
                           <motion.div
-                            className="absolute inset-0 bg-gradient-to-r from-novitrail-blue to-novitrail-orange opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl"
-                            animate={{
-                              backgroundPosition: ['0% 50%', '100% 50%', '0% 50%']
-                            }}
-                            transition={{
-                              duration: 2,
-                              repeat: Infinity,
-                              ease: "linear"
-                            }}
-                            style={{
-                              backgroundSize: '200% 100%'
-                            }}
+                            className="absolute inset-0 bg-gradient-to-r from-novitrail-blue to-novitrail-orange opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl animate-gradient-pan-fast"
                           />
                           <span className="relative z-10 flex items-center justify-center gap-3">
                             Contact Us
@@ -685,34 +688,39 @@ const Navbar: React.FC = () => {
         />
       </motion.nav>
 
-      {/* Enhanced floating particles effect */}
-      <div className="fixed inset-0 pointer-events-none z-40">
-        {typeof window !== 'undefined' && [...Array(6)].map((_, i) => (
-          <motion.div
-            key={i}
-            className={`absolute rounded-full ${i % 2 === 0 ? 'bg-novitrail-orange' : 'bg-novitrail-blue'}`}
-            style={{
-              width: `${2 + Math.random() * 2}px`,
-              height: `${2 + Math.random() * 2}px`
-            }}
-            animate={{
-              x: [0, (typeof window !== 'undefined' ? window.innerWidth : 1200)],
-              y: [
-                Math.random() * (typeof window !== 'undefined' ? window.innerHeight : 800),
-                Math.random() * (typeof window !== 'undefined' ? window.innerHeight : 800)
-              ],
-              opacity: [0, 0.8, 0],
-              scale: [0.5, 1, 0.5]
-            }}
-            transition={{
-              duration: 8 + Math.random() * 4,
-              repeat: Infinity,
-              delay: i * 1.5,
-              ease: "linear"
-            }}
-          />
-        ))}
-      </div>
+      {/* Enhanced floating particles effect (client-only after mount to avoid hydration issues) */}
+      {mounted && (
+        <div className="fixed inset-0 pointer-events-none z-40">
+          {particlesRef.current.map((p, i) => {
+            const { width, height } = windowSize;
+            return (
+              <motion.div
+                key={i}
+                className={`absolute rounded-full ${p.color === 'orange' ? 'bg-novitrail-orange' : 'bg-novitrail-blue'}`}
+                style={{ width: p.size, height: p.size } as React.CSSProperties}
+                initial={{
+                  x: 0,
+                  y: height * p.startY,
+                  opacity: 0,
+                  scale: 0.5
+                }}
+                animate={{
+                  x: [0, width],
+                  y: [height * p.startY, height * p.endY],
+                  opacity: [0, 0.8, 0],
+                  scale: [0.5, 1, 0.5]
+                }}
+                transition={{
+                  duration: p.duration,
+                  repeat: Infinity,
+                  delay: p.delay,
+                  ease: 'linear'
+                }}
+              />
+            );
+          })}
+        </div>
+      )}
     </>
   );
 };

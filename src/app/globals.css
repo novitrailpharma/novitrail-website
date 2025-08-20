@@ -129,6 +129,34 @@ body {
   animation: pulse-glow 2s ease-in-out infinite;
 }
 
+/* Gradient pan animation (replaces framer-motion backgroundPosition JS animation) */
+@keyframes gradient-pan {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-pan-slow {
+  animation: gradient-pan 3s linear infinite;
+  background-size: 200% 100%;
+}
+
+.animate-gradient-pan-fast {
+  animation: gradient-pan 2s linear infinite;
+  background-size: 200% 100%;
+}
+
+/* Glow / shifting background animation */
+@keyframes glow-shift {
+  0% { background: linear-gradient(45deg, rgba(0,69,131,0.4), rgba(228,93,28,0.4)); }
+  50% { background: linear-gradient(45deg, rgba(228,93,28,0.4), rgba(0,69,131,0.4)); }
+  100% { background: linear-gradient(45deg, rgba(0,69,131,0.4), rgba(228,93,28,0.4)); }
+}
+
+.animate-glow-shift {
+  animation: glow-shift 2s ease-in-out infinite;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

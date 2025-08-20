@@ -66,7 +66,7 @@ const HeroSection = () => {
           animate="visible"
           className="text-white"
         >
-          <motion.div variants={fadeInUp} className="mb-6">
+          <motion.div variants={fadeInUp} className="mb-6 mt-28">
             <span className="inline-block px-4 py-2 bg-novitrail-orange text-white rounded-full text-sm font-semibold mb-4">
               🌟 Global Pharmaceutical Leader
             </span>

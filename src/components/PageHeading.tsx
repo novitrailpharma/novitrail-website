@@ -27,7 +27,7 @@ const PageHeading: React.FC<PageHeadingProps> = ({
       ></div>
 
       {/* Content */}
-      <div className="relative text-center py-20 px-4 sm:py-28 sm:px-8">
+      <div className="relative text-center py-20 px-4 sm:py-28 sm:px-8 sm:pt-32">
         {/* Breadcrumb */}
         <nav className="mb-4 text-gray-200 text-sm sm:text-base">
           <ul className="flex justify-center space-x-3">
